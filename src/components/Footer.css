@@ -1,0 +1,30 @@
+.footer {
+  background: #2c3e50;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.container {
+  width: 100vw;
+  margin: 0;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+.footer-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #3498db;
+}
+
+.footer-content p {
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  opacity: 0.6 !important;
+  margin-top: 1rem;
+}

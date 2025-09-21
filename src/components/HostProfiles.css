@@ -1,0 +1,127 @@
+.host-profiles {
+  padding: 4rem 0;
+  background: #f8f9fa;
+}
+
+.container {
+  width: 100vw;
+  margin: 0;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+.host-profiles h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.hosts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 3rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.host-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.host-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.host-image {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.host-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3498db;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.host-info h3 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.host-info h4 {
+  font-size: 1.2rem;
+  color: #3498db;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.host-subtitle {
+  font-size: 1rem;
+  color: #7f8c8d;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.host-bio p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.host-bio p:last-child {
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: 600;
+  color: #2c3e50;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .host-profiles {
+    padding: 2.5rem 0;
+  }
+  
+  .host-profiles h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hosts-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .host-card {
+    padding: 1.5rem;
+  }
+  
+  .host-image img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .host-info h3 {
+    font-size: 1.5rem;
+  }
+  
+  .host-info h4 {
+    font-size: 1.1rem;
+  }
+}
