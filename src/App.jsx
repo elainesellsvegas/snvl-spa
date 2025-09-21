@@ -11,17 +11,17 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <VideoPlayer 
-        youtubeId={featuredVideo.youtubeId}
-        title={featuredVideo.title}
-        description={featuredVideo.description}
-      />
       <ShowBio 
         title={showBio.title}
         subtitle={showBio.subtitle}
         description={showBio.description}
       />
       <HostProfiles hosts={hosts} />
+      <VideoPlayer 
+        youtubeId={featuredVideo.youtubeId}
+        title={featuredVideo.title}
+        description={featuredVideo.description}
+      />
       <FeaturedEpisodes />
       <Footer />
     </div>
