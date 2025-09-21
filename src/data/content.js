@@ -49,7 +49,7 @@ Outside the studio, Dennis is a passionate animal lover who enjoys spoiling his 
 ];
 
 export const featuredVideo = {
-  title: 'Featured Episode: Scott Gillespie Lender',
-  youtubeId: 'HGAQY1N9TRg',
-  description: 'Watch our latest episode featuring Scott Gillespie, discussing lending opportunities and market insights for Southern Nevada.'
+  title: 'Featured Episode: Mayor Michelle Romero - City of Henderson',
+  youtubeId: 'lmhWCQalKGA',
+  description: 'Watch our featured episode with Mayor Michelle Romero from the City of Henderson, discussing local development and opportunities in Southern Nevada.'
 };

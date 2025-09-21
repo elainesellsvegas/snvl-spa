@@ -2,6 +2,7 @@ import Header from './components/Header'
 import VideoPlayer from './components/VideoPlayer'
 import ShowBio from './components/ShowBio'
 import HostProfiles from './components/HostProfiles'
+import FeaturedEpisodes from './components/FeaturedEpisodes'
 import Footer from './components/Footer'
 import { showBio, hosts, featuredVideo } from './data/content'
 import './App.css'
@@ -21,6 +22,7 @@ function App() {
         description={showBio.description}
       />
       <HostProfiles hosts={hosts} />
+      <FeaturedEpisodes />
       <Footer />
     </div>
   )

@@ -1,5 +1,5 @@
 import './Header.css';
-import logo from '../assets/images/logo.png';
+import logo from '../assets/images/southern-nevada-logo.jpg';
 
 const Header = () => {
   return (
