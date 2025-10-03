@@ -49,7 +49,16 @@ Outside the studio, Dennis is a passionate animal lover who enjoys spoiling his 
 ];
 
 export const featuredVideo = {
-  title: 'Featured Episode: Mayor Michelle Romero - City of Henderson',
-  youtubeId: 'lmhWCQalKGA',
-  description: 'Watch our featured episode with Mayor Michelle Romero from the City of Henderson, discussing local development and opportunities in Southern Nevada.'
+  title: 'Featured Episode',
+  src: 'https://www.lightcast.com/embed/player.php?&id=767471&autoPlay=1',
+  description: 'Watch our featured episode.'
 };
+
+export const moreFeatured = [
+  {
+    src: 'https://www.lightcast.com/embed/player.php?&id=753296&autoPlay=1'
+  },
+  {
+    src: 'https://www.lightcast.com/embed/player.php?&id=750608&autoPlay=1'
+  }
+];

@@ -18,7 +18,7 @@ function App() {
       />
       <HostProfiles hosts={hosts} />
       <VideoPlayer 
-        youtubeId={featuredVideo.youtubeId}
+        src={featuredVideo.src}
         title={featuredVideo.title}
         description={featuredVideo.description}
       />

@@ -1,15 +1,13 @@
 import './VideoPlayer.css';
 
-const VideoPlayer = ({ youtubeId, title, description }) => {
-  const embedUrl = `https://www.youtube.com/embed/${youtubeId}`;
-  
+const VideoPlayer = ({ src, title, description }) => {
   return (
     <section className="video-section">
       <div className="container">
         <h2>{title}</h2>
         <div className="video-wrapper">
           <iframe
-            src={embedUrl}
+            src={src}
             title={title}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
